@@ -1,4 +1,5 @@
 # directus-playground
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ivanq3w/directus-playground)
 
 ## How to start
 Install extension dependencies
