@@ -1,0 +1,35 @@
+{
+  "name": "directus-extension-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx directus-extension build",
+    "build:custom": "npx rollup -c --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@directus/extension-sdk": "^9.0.0-rc.85"
+  },
+  "directus:extension": {
+    "type": "module",
+    "path": "index.js",
+    "source": "src/index.js",
+    "host": "^9.0.0-rc.85",
+    "hidden": false
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@vueuse/core": "^5.1.3",
+    "rollup": "^2.52.7",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-styles": "^3.14.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-vue": "^6.0.0",
+    "rollup-plugin-windicss": "^1.2.3",
+    "sass": "^1.35.2",
+    "sass-loader": "^12.1.0"
+  }
+}
